@@ -1,0 +1,23 @@
+:root {
+            --deep-night: #0F172A;
+            --vibe-purple: #7C3AED;
+            --soft-lavender: #A78BFA;
+            --vibe-pink: #F472B6;
+            --light-lilac: #EDE9FE;
+            --clean-white: #F8FAFC;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--deep-night);
+            color: var(--clean-white);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
